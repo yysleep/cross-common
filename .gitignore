@@ -1,0 +1,131 @@
+# CMake Build directory
+build
+build_ios/
+build_macos/
+output
+.cache
+
+/output/
+/output/bin/
+/output/lib/
+
+/.vscode/
+/.cache/
+/.idea/
+/*/.cache/
+/*/.idea/
+/*/.vscode/
+
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake Build directory
+build
+
+# iOS Build directories
+build_ios/
+**/build_ios/
+
+# Xcode files
+*.xcodeproj/
+*.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+project.xcworkspace/
+DerivedData/
+
+# iOS build artifacts
+*.dSYM/
+*.ipa
+*.build/
+
+# CMake FetchContent directory 
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# liblogger
+liblogger/.vscode
+liblogger/build
+liblogger/CMakeFiles
+liblogger/cmake_install.cmake
+liblogger/CMakeCache.txt
+liblogger/*.so
+liblogger/Makefile
+liblogger/*_sample
+liblogger/*.md
+
+# libbuffer
+libbuffer/.vscode
+libbuffer/build
+libbuffer/CMakeFiles
+libbuffer/cmake_install.cmake
+libbuffer/CMakeCache.txt
+libbuffer/*.so
+libbuffer/Makefile
+libbuffer/*_sample
+libbuffer/*.md
+
+# libhandler
+libhandler/.vscode
+libhandler/build
+libhandler/CMakeFiles
+libhandler/cmake_install.cmake
+libhandler/CMakeCache.txt
+libhandler/*.so
+libhandler/Makefile
+libhandler/*_sample
+libhandler/*.md
+
+# libjson
+libjson/.vscode
+libjson/build
+libjson/CMakeFiles
+libjson/cmake_install.cmake
+libjson/CMakeCache.txt
+libjson/*.so
+libjson/Makefile
+libjson/*_sample
+libjson/*.md
